@@ -1,0 +1,56 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+}
+
+#hero {
+  background-image: url("images/HERO\ 1.jpg");
+  padding: 180px 0 180px;
+  text-align: center;
+  border-bottom: 2rem solid red;
+}
+.divOne {
+  display: inline-block;
+  margin-top: 8rem;
+}
+
+#title {
+  padding: 0%;
+  margin-bottom: -1.6rem;
+  font-size: 5rem;
+  font-weight: 900;
+  letter-spacing: -1px;
+  color: #de041c;
+}
+
+#sub-title {
+  margin: 0;
+  font-size: 3.1rem;
+  letter-spacing: -1px;
+  color: #fff;
+}
+
+#hero-txt {
+  color: #fff;
+  font-size: 1.2rem;
+}
+
+#two {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  max-width: 50rem;
+  margin: 1rem;
+}
+
+#images-cont {
+  width: 50%;
+  border: 4px solid green;
+}
+
+#skills-cont {
+  width: 50%;
+  border: 4px solid green;
+}
