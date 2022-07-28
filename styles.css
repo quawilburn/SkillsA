@@ -6,19 +6,25 @@
 
 #hero {
   background-image: url("images/HERO\ 1.jpg");
-  padding: 180px 0 180px;
+  background-color: rgb(9 9 9 / 44%);
+  background-blend-mode: darken;
+  padding: 245px 0 250px;
+  margin-bottom: 0.3rem;
   text-align: center;
+  height: 40%;
   border-bottom: 2rem solid red;
 }
+
 .divOne {
   display: inline-block;
   margin-top: 8rem;
+  margin-bottom: 4rem;
 }
 
 #title {
   padding: 0%;
   margin-bottom: -1.6rem;
-  font-size: 5rem;
+  font-size: 5.8rem;
   font-weight: 900;
   letter-spacing: -1px;
   color: #de041c;
@@ -26,7 +32,7 @@
 
 #sub-title {
   margin: 0;
-  font-size: 3.1rem;
+  font-size: 3.5rem;
   letter-spacing: -1px;
   color: #fff;
 }
@@ -38,19 +44,123 @@
 
 #two {
   display: flex;
-  justify-content: center;
-  align-items: center;
   flex-wrap: wrap;
-  max-width: 50rem;
-  margin: 1rem;
+  background-image: url("images/SPLASH\ WATERMARK.png");
+  object-fit: cover;
+  background-color: rgb(255 255 255 / 90%);
+  background-blend-mode: lighten;
+  background-repeat: no-repeat;
+  background-position: right;
 }
 
 #images-cont {
   width: 50%;
-  border: 4px solid green;
+  /* border: 4px solid rgb(221, 85, 21); */
+}
+#youtube {
+  width: 39.5%;
+  position: absolute;
+  margin-top: 44.5rem;
+  margin-left: 36.5rem;
+  box-shadow: 0px 0px 16px 6px rgba(0, 0, 0, 0.5);
 }
 
 #skills-cont {
-  width: 50%;
-  border: 4px solid green;
+  width: 40%;
+  /* border: 4px solid rgb(3, 24, 139); */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 4rem;
+  margin-top: 15rem;
+}
+
+#first {
+  /* border: solid blue; */
+  margin: 0.3rem;
+  margin-left: 0;
+  width: 36em;
+}
+
+#second {
+  /* border: solid blue; */
+  height: 17rem;
+  margin-bottom: -3.5rem;
+}
+
+#third {
+  /* border: solid blue; */
+  margin-bottom: 3.7em;
+  max-width: 50rem;
+  max-height: 17rem;
+}
+
+#fourth {
+  /* border: solid blue; */
+  margin: 0.3rem;
+  /* max-width: 50rem;
+  max-height: 17rem; */
+}
+
+#fifth {
+  /* border: solid blue; */
+  margin: 0.3rem;
+  margin-left: 0%;
+}
+h4 {
+  font-weight: bold;
+  font-size: 2rem;
+  margin-bottom: -1rem;
+}
+
+h3 {
+  border-bottom: 4px solid rgb(0, 0, 0);
+  width: 116.5%;
+  color: red;
+  font-size: 3rem;
+  padding-bottom: 1rem;
+}
+
+#regTxt {
+  font-weight: 400;
+  margin-top: 1rem;
+}
+
+#warning-text {
+  color: red;
+  font-weight: 500;
+}
+
+@media screen and (max-width: 1920px) {
+  #two {
+    text-align: center;
+  }
+
+  #youtube {
+    margin-left: 0;
+    left: 30%;
+    width: 40%;
+  }
+
+  #images-cont {
+    display: none;
+  }
+
+  #skills-cont {
+    width: 100%;
+  }
+
+  h3 {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  #youtube {
+    margin-left: 0;
+    left: 30%;
+    right: 25rem;
+    width: 40%;
+  }
 }
