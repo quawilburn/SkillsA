@@ -55,7 +55,6 @@
 
 #images-cont {
   width: 50%;
-  /* border: 4px solid rgb(221, 85, 21); */
 }
 #youtube {
   width: 39.5%;
@@ -67,7 +66,6 @@
 
 #skills-cont {
   width: 40%;
-  /* border: 4px solid rgb(3, 24, 139); */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -77,34 +75,27 @@
 }
 
 #first {
-  /* border: solid blue; */
   margin: 0.3rem;
   margin-left: 0;
   width: 36em;
 }
 
 #second {
-  /* border: solid blue; */
   height: 17rem;
   margin-bottom: -3.5rem;
 }
 
 #third {
-  /* border: solid blue; */
   margin-bottom: 3.7em;
   max-width: 50rem;
   max-height: 17rem;
 }
 
 #fourth {
-  /* border: solid blue; */
   margin: 0.3rem;
-  /* max-width: 50rem;
-  max-height: 17rem; */
 }
 
 #fifth {
-  /* border: solid blue; */
   margin: 0.3rem;
   margin-left: 0%;
 }
@@ -160,7 +151,29 @@ h3 {
   #youtube {
     margin-left: 0;
     left: 30%;
+    top: 10rem;
     right: 25rem;
     width: 40%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  #hero {
+    width: 150%;
+  }
+  #two {
+    width: 150%;
+  }
+  #divOne {
+    width: 75%;
+  }
+  #youtube {
+    margin-left: 0;
+    width: 20em;
+    top: 20%;
+  }
+
+  #skills-txt {
+    margin-right: 7rem;
   }
 }
